@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg SYSTEM "cataleg.dtd"> 
+<cataleg>
+    <llista_actors>
+        <actor>
+            <nom id ="1">John smith</nom>
+            <edat>40</edat>
+        </actor>
+        <actor>
+            <nom id ="2">Dwayne Johson</nom>
+            <edat>49</edat>
+        </actor>
+        <actor>
+            <nom id="3">Kyle Richard</nom>
+            <edat id="4">20</edat>
+        </actor>
+    </llista_actors>
+
+    <llista_pelicules>
+        <pelicula id ="p1">
+            <titol idioma = "castella">Busca Dino</titol>
+            <director>Pedro Sanchez</director>
+            <any>1992</any>
+            <actors>
+                <actor_ref ref="1"/>
+                <actor_ref ref="2"/>
+                <actor_ref ref="3"/>
+            </actors>
+        </pelicula>
+        <pelicula id ="p2">
+            <titol idioma = "catala">Capçaleres</titol>
+            <director>Denis Mat</director>
+            <any>2023</any>
+            <actors>
+                <actor_ref ref="1"/>
+                <actor_ref ref="2"/>
+                <actor_ref ref="3"/>
+            </actors>
+        </pelicula>
+        <pelicula id ="p3">
+            <titol idioma = "Anglès">Trip</titol>
+            <director>Franchise Madison</director>
+            <any>2030</any>
+            <actors>
+                <actor_ref ref="1"/>
+                <actor_ref ref="2"/>
+                <actor_ref ref="3"/>
+            </actors>
+        </pelicula>
+    </llista_pelicules>
+
+    <llista_recomanacions_pelicules>
+        <recomanacio ref="p1"/>
+        <recomanacio ref="p2"/>
+        <recomanacio ref="p3"/>
+    </llista_recomanacions_pelicules>
+</cataleg>
+
